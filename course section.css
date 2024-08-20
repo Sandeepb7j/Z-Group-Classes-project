@@ -1,0 +1,213 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #1b9bff;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* Reset & General Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #1b9bff;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Box Styling for Course Section */
+.course-box {
+    border: 2px solid #ccc; /* Light gray border for the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Decreased padding */
+    background-color: #fff; /* White background inside the box */
+    max-width: 400px; /* Decreased max width */
+    margin: 20px auto; /* Increase margin to prevent overlap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    display: flex; /* Change to flex to ensure items inside are flexed */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+/* Flexbox Layout for Image and Text */
+.course-section {
+    width: 100%; /* Ensure the section takes full width */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    text-align: center;
+}
+
+/* Course Image Styling */
+.course-image {
+    width: 100%; /* Full width image */
+    max-width: 400px; /* Limit max width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space between image and text */
+}
+
+/* Course Description Styling */
+.course-description {
+    width: 100%;
+    text-align: center; /* Center the main heading */
+}
+
+.course-description h2 {
+    margin-bottom: 20px;
+}
+
+.course-description p {
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Two-Column Layout for Subject and Language */
+.course-description-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px; /* Add space between columns */
+}
+
+.course-description-columns .subject-column,
+.course-description-columns .language-column {
+    flex: 1;
+    min-width: 0; /* Ensure the columns don't overflow */
+}
+
+.course-description-columns .subject-column {
+    text-align: left; /* Align subject content to the left */
+}
+
+.course-description-columns .language-column {
+    text-align: right; /* Align language content to the right */
+}
+
+.course-description-columns h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.course-description-columns ul {
+    list-style-type: disc; /* Add bullet points */
+    padding-left: 20px; /* Indent the bullet points */
+}

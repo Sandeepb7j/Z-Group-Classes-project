@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Section</title>
+    <style>
+      /* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    padding: 0 50px;
+    justify-content:space-between;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #1b9bff;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 80px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card-header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .subjects-languages {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .subjects-languages ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .subjects-languages li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Z-Group Tutorial</label>
+    <ul>
+      <li><a  href="index.html">Home</a></li>
+      <li><a class="active"href="index2.html">Course</a></li>
+      <li><a href="#">Study Material</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">School Section</div>
+            </div>
+            <div class="card-body">
+                <img src="ss3.jpg" alt="Students in a classroom" width="100%">
+                <h2 class="card-title">Std. 8th: All subjects</h2>
+                <p class="card-text">We provide coaching to students of all schools in chembur.</p>
+                <div class="subjects-languages">
+                    <ul>
+                        <li>Subjects:</li>
+                        <li>Algebra</li>
+                        <li>Geometry</li>
+                        <li>Science</li>
+                        <li>History</li>
+                        <li>Geography</li>
+                    </ul>
+                    <ul>
+                        <li>Languages:</li>
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Marathi</li>
+                        <li>Sindhi</li>
+                        <li>Sanskrit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">School Section</div>
+            </div>
+            <div class="card-body">
+                <img src="ss3.jpg" alt="Students in a classroom" width="100%">
+                <h2 class="card-title">Std. 9th: All subjects</h2>
+                <p class="card-text">We provide coaching to students of all schools in chembur.</p>
+                <div class="subjects-languages">
+                    <ul>
+                        <li>Subjects:</li>
+                        <li>Algebra</li>
+                        <li>Geometry</li>
+                        <li>Science</li>
+                        <li>History</li>
+                        <li>Geography</li>
+                    </ul>
+                    <ul>
+                        <li>Languages:</li>
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Marathi</li>
+                        <li>Sindhi</li>
+                        <li>Sanskrit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">School Section</div>
+            </div>
+            <div class="card-body">
+                <img src="ss3.jpg" alt="Students in a classroom" width="100%">
+                <h2 class="card-title">Std. 10th: All subjects</h2>
+                <p class="card-text">We provide coaching to students of all schools in chembur.</p>
+                <div class="subjects-languages">
+                    <ul>
+                        <li>Subjects:</li>
+                        <li>Algebra</li>
+                        <li>Geometry</li>
+                        <li>Science</li>
+                        <li>History</li>
+                        <li>Geography</li>
+                    </ul>
+                    <ul>
+                        <li>Languages:</li>
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Marathi</li>
+                        <li>Sindhi</li>
+                        <li>Sanskrit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
